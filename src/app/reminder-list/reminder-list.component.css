@@ -1,0 +1,33 @@
+li {
+    width: 70vw;
+    padding: 0.8rem;
+    border: 1px solid black;
+    margin: 0.4rem;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    color: red;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.mdi-delete {
+    font-size: 1.2rem
+}

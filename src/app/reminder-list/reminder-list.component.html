@@ -1,0 +1,10 @@
+<div class="list-container">
+    @for (item of reminders; track $index) {
+        <li>
+            <rmd-reminder [reminder]='item' />
+            <button (click)="deleteReminder(item.id)">
+                <i class="mdi mdi-delete"></i>
+            </button>
+        </li>
+    }
+</div>

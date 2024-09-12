@@ -1,0 +1,14 @@
+input {
+    height: 3rem;
+    border-radius: 5px;
+    overflow:  hidden;
+    font-size: 1.2rem;
+    width: 50vw;
+    padding: 0 1rem;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
